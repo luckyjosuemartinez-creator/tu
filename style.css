@@ -1,0 +1,38 @@
+
+  body {
+    background: linear-gradient(135deg, #606991 0%, #680ec2 100%);
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+
+  .container {
+    background-color: #ffffff !important;
+    border-radius: 15px !important;
+  }
+
+  table {
+    border-collapse: separate !important;
+    border-spacing: 0;
+  }
+
+  table thead {
+    background: #8a8897;
+    color: white;
+  }
+
+  table thead th {
+    border-top: none !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  tbody tr:hover {
+    background-color: #773030;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Estilo opcional para las celdas */
+  table td {
+    vertical-align: middle !important;
+  }
